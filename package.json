@@ -1,0 +1,22 @@
+{
+	"name": "rspack-qa",
+	"version": "1.0.0",
+	"description": "emp workspace",
+	"main": "index.js",
+	"type": "module",
+	"repository": "https://github.com/empjs/rspack-q-and-A.git",
+	"author": "ken <ckken@qq.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"lint": "biome check . --fix"
+	},
+	"engines": {
+		"node": ">=16.0.0",
+		"pnpm": ">=8"
+	},
+	"devDependencies": {
+		"@empjs/biome-config": "0.4.2",
+		"typescript": "^5.4.5"
+	}
+}
